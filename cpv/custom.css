@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,600&family=Roboto:ital,wght@0,100;0,400;0,500;0,700;1,100&display=swap');
+*{
+  font-family: 'Noto Sans';
+  font-size: 14px;
+
+}
+
+
+.pril1{
+    color:green;
+}
+.pril1:after{
+    content: ' (Приложение 2)';
+    color: green;
+    font-weight: bold;
+}
+
+@media only screen and (min-width: 600px) {
+    .bg-stars{
+        background-image: url('./stars.png');
+        background-position: -120px;
+        background-repeat: no-repeat;
+        background-size:320px;
+        fill: green;
+        
+    }
+  }
+
+
+
+.folder-deliveries{
+    background-image: url("folder_yellow.svg") !important;
+    background-size: 29px 29px;
+}
+
+.folder-deliveries-reserved{
+    background-image: url("folder_yellow_reserved.svg") !important;
+    background-size: 29px 29px;
+}
+
+
+.folder-building{
+    background-image: url("folder_blue.svg") !important;
+    background-size: 29px 29px;
+}
+
+.folder-socials{  
+
+    background-image: url("folder_green.svg") !important;
+    background-size: 29px 29px;
+
+}
+
+.folder-socials-reserved{
+    background-image: url("folder_green_reserved.svg") !important;
+    background-size: 29px 29px;
+}
+
+.folder-services{
+    background-image: url("folder_red.svg") !important;
+    background-repeat: no-repeat;
+    background-size: 29px 29px;  
+}
+
+.folder-services-reserved{
+    background-image: url("folder_red_reserved.svg") !important;
+    background-repeat: no-repeat;
+    background-size: 29px 29px;  
+}
+
+
+
+.rounded-right{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.rounded-left{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
