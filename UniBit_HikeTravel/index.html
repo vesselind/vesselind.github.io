@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/custom.css">
+    <link rel="shortcut icon" href="./images/TravelingLogoIcon.svg" type="image/x-icon">
+    <title>HikeTravel - Агенция за алтернативен туризъм</title>
+
+</head>
+<body>
+    <nav class="topnav" id="myTopnav">
+        <div class="container">
+            <div class="brand"><a href="#home"><img src="./images/TravelingLogoWhite.svg"></a></div>
+            <a href="#myTopnav">Начало</a>
+            <a href="#aboutus">За нас</a>
+            <a href="#travelings">Предстоящи пътувания</a>
+            <a href="#contacts">Контакти</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-justify" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2 12.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"/>
+                </svg>
+            </a> 
+        </div>
+    </nav>
+          
+
+   
+    <section class="header-fluid">
+        <div class="container">
+            <div class="header-contained">
+                <div class="text-section">
+                    <h1 class="fw-normal">Агенция за алтернативен туризъм</h1>
+                    <h3 class="fw-normal">Планински преходи, трекинг, спорт сред природата</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container bg-white p-1" id="aboutus">
+        <h1 class="center-text p-0 underline-blue">За нас</h1>
+        <div class="row">
+            <div class="col-6 p-1">
+                <h2>Пътувания и разходки сред природата</h2>
+                <img src="./images/photo-sunset.jpg" width="250px" style="float:left; margin-right: 10px; border-radius: 10px;">
+                <p class="intro justify-text">HIKE TRAVEL е агенция за пътувания и разходки сред природата, <a href="https://en.wikipedia.org/wiki/Hiking" target="_blank">hiking</a> и <a href="https://adventures.com/blog/hiking-vs-trekking/" target="_blank">trekking</a>. Предлагат се разнообразни туристически пакети, вклчващи кратки еднодневни или едноседмични пътувания до 
+                    различни планински кътчета, езера, природни резервати. Организира настанявания в планински хижи, къщи за гости, хотели със СПА услуги и др. Провежда тиймбилдинги
+                    на открито сред природата за малки фирми и големи корпоративни клиенти.
+                </p>
+            </div>
+            <div class="col-6 p-1">
+                <h2>Екип</h2>
+                <img src="./images/team.jpg" width="250px" style="float:left; margin-right: 10px; border-radius: 10px;">
+                <p class="intro justify-text">Екипът ни се състои от професионалисти в сферата на туризма с богат опит в организирането
+                    на екскурзии, преходи, събития, излети сред природата и др. 
+
+                </p>
+            </div>
+        </div>
+        
+        <h1 class="center-text p-0 underline-blue" id="travelings">Предстоящи пътувания</h1>
+        
+        <div class="row">
+            
+            <div class="col-6 p-1">
+                <table>
+                    <tr>
+                        <td>Разходка по Вазовата екопътека и водопад Скакля</td>
+                        <td>10.05.2022</td>
+                    </tr>
+                    <tr>
+                        <td>Преход до Рилските езера</td>
+                        <td>28.07.2022</td>
+                    </tr>
+                    <tr>
+                        <td>Асенова крепост</td>
+                        <td>14.09.2022</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="col-6 p-1">
+                <table>
+                    <tr>
+                        <td>Крушунските водопади</td>
+                        <td>15.05.2022</td>
+                    </tr>
+                    <tr>
+                        <td>Мостът до с. Лисиците - най-дългият въжен мост в Бълария</td>
+                        <td>28.08.2022</td>
+                    </tr>
+                    <tr>
+                        <td>Преход до Перперикон</td>
+                        <td>02.09.2022</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        
+        <h1 class="center-text p-0 underline-blue" id="contacts">Контакти</h1>
+
+        <div class="row">
+            <div class="col-6 p-1">
+                <div class="row m-2">
+                    <div class="col-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17" fill="#9b5825" class="bi bi-telegram" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"/>
+                          </svg>
+                    </div>
+                    <div class="col-11">
+                        <div>гр. София,</div>
+                        <div>бул. "Г.С. Раковски" № 123</div>
+                    </div>
+                </div>
+                <div class="row m-2">
+                    <div class="col-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17" fill="#9b5825" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                          </svg>
+                    </div>
+                    <div class="col-11">
+                        <div>+359 333 091 092</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-6 p-1" style="float: right;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2932.4523581479916!2d23.326595915730568!3d42.69414157916594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40aa8573d24a1ac5%3A0x5d2909e60bb1e0ed!2sulitsa%20%E2%80%9EGeorgi%20S.%20Rakovski%E2%80%9C%20123%2C%201000%20Sofia%20Center%2C%20Sofia!5e0!3m2!1sen!2sbg!4v1641223255915!5m2!1sen!2sbg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+    
+
+    
+    <footer class="conatainer-fluid bg-darkblue center-text">
+          <p class="text-white center-text">HIKE TRAVEL - Туристическа агенция</p>
+          <p class="text-white center-text">&copy Веселин Димитров - 2022</p>
+          <p class="text-white center-text">Настоящият сайт представлява курсова работа по предмета "Уеб дизайн" по специалност "ДМУД" в УНИБИТ - 2021/2022 учебна година</p>
+        <div class="footer-element"></div>
+      </footer>
+    <script src="./src/app.js"></script>
+
+</body>
+</html>

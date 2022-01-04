@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Raleway:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+/*****  BODY ******/
+
+body{
+    background-color: rgb(241, 238, 229);
+    font-family: 'Raleway' !important;
+}
+
+
+.title{
+    font-family: 'Marck Script';
+    color: #d9a430;
+    font-size: 60px;
+}
+
+.text-orange{
+    color: #d9a430;
+}
+
+.text-blue{
+    color: #378fe9;
+}
+
+.bg-primary{
+    background-color: #378fe9;
+}
+
+.bg-warning{
+    background-color: #d9a430;
+}
+
+.btn-primary{
+    color: #378fe9;
+}
+
+.btn-outline-custom {
+    color: #378fe9;
+    border-color: #378fe9;
+}
+
+.btn-outline-custom:hover{
+    color: rgb(247, 247, 247);
+    background-color: #d9a430;
+    border-color: #d9a430;
+    ;
+}
+
+
+a{
+    color:rgb(22, 105, 184) !important;
+    text-decoration: none
+}
+
+a:hover{
+    color:rgb(96, 163, 226) !important;
+    text-decoration: underline;
+}
+
+
+
+hr.short-line{
+    height: 5px; 
+    width: 200px; 
+    margin: 0 auto; 
+    opacity: 1; 
+    color: #0176d5;
+}
+
+
+.greece-logo{
+    float: left;
+    width: 120px;
+    margin-right: 20px;
+}
+
+
+.text-line-height p{
+    line-height: 30px !important;
+}
+
+/* style ORDERED LIST (OL) */
+ol li::marker {
+    color: #c1861c;
+    font-size: 1.5em;
+   
+}
