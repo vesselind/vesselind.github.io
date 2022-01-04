@@ -85,3 +85,11 @@ ol li::marker {
     font-size: 1.5em;
    
 }
+
+
+thead, th {
+    white-space: normal !important; 
+    word-wrap: break-word;  
+    min-width: 60px;
+    max-width: 60px;
+  }
